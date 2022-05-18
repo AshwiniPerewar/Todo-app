@@ -1,0 +1,81 @@
+.todoList
+{
+    font-size: 30px;
+    background-color: white;
+}
+
+.striked
+{
+    text-decoration: line-through;
+}
+
+/* .todo,.striked{
+    background-color: gainsboro;
+    
+} */
+
+
+
+.input
+{
+    width: 50%;
+    height: 60px;
+}
+
+.button,.input,.striked,.item
+{
+    border-radius: 10px;
+    border: none;
+    font-size: 28px;
+    margin-top: 30px;
+   
+}
+
+.check
+{
+    width: 40px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.todo{
+    margin-left: 100px;
+    margin-top: 0px;
+    font-size: 18px;
+   
+}
+
+.striked{
+    margin-top: -10px;
+   
+}
+
+.item
+{
+    font-size: 18px;
+    background-color: white;
+    margin-left: 235px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bolder;
+    width: 58%;
+    height: 60px;
+}
+
+.button
+{
+    height: 66px;
+    margin-left: 10px;
+    width: 80px;
+    background-color: white;
+    font-size: 30px;
+}
+
+
+.item>p
+{
+    margin-top: 15px;
+    margin-left: 10px;
+}
